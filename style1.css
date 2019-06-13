@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#image {
+  width: 30%;
+  margin: 5px;
+  float: left;
+  min-height: 100%;
+}
+img {
+  max-width: 100%;
+}
+
+#rockets {
+  border: 2px solid;
+  padding: 5px;
+  margin: 5px;
+  width: 30%;
+  min-height: 100%;
+  float: left;
+}
+
+#pockemon {
+  width: 30%;
+  min-height: 100%;
+  float: left;
+  border: 2px solid;
+  padding: 5px;
+  margin: 5px;
+}
