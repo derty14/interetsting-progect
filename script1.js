@@ -25,7 +25,7 @@ $.ajax(rocket).done(function (response) {
   }
 
 });
-//pockemon
+//hearthstone
 var hs= {
   "timeout": 0,
   url:'https://omgvamp-hearthstone-v1.p.mashape.com/cards/Ysera',
