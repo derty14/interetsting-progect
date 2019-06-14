@@ -1,16 +1,12 @@
 //img
 var img= {
   "timeout": 0,
-  url:'https://omgvamp-hearthstone-v1.p.mashape.com/cards/Dr. Boom',
+  url:'https://pokeapi.co/api/v2/pokemon/1/',
   type:'GET',
   dataType: 'json',
-  beforeSend: function(xhr) {
-      xhr.setRequestHeader("X-RapidAPI-Host", "omgvamp-hearthstone-v1.p.rapidapi.com"),
-      xhr.setRequestHeader("X-RapidAPI-Key", "cd621808admsh2aaba6c4758eccfp135912jsn7d549f1bc4a2")
-  }
 }
 $.ajax(img).done(function (res) {
-  $("#image").append("<img src='"+res[2]["imgGold"]+"'>")
+  $("#image").append("<img src='"+res["sprites"]["front_default"]+"'> <img src='"+res["sprites"]["back_default"]+"'> <img src='"+res["sprites"]["front_shiny"]+"'> <img src='"+res["sprites"]["back_shiny"]+"'>");
 })
 //rocket
 var rocket = {

@@ -5,16 +5,15 @@ body {
 }
 
 #image {
-  width: 30%;
+  width: 35%;
   margin: 5px;
   float: left;
   min-height: 100%;
-}
-#image {
   max-width: 100%;
   border: 2px solid;
   padding: 5px;
   margin: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 #rockets {
@@ -24,15 +23,17 @@ body {
   width: 30%;
   min-height: 100%;
   float: left;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 h2{
   text-align: center;
 }
 #hearthstone {
-  width: 30%;
+  width: 25%;
   min-height: 100%;
   float: left;
   border: 2px solid;
   padding: 5px;
   margin: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
