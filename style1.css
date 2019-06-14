@@ -10,8 +10,11 @@ body {
   float: left;
   min-height: 100%;
 }
-img {
+#image {
   max-width: 100%;
+  border: 2px solid;
+  padding: 5px;
+  margin: 5px;
 }
 
 #rockets {
@@ -22,8 +25,10 @@ img {
   min-height: 100%;
   float: left;
 }
-
-#pockemon {
+h2{
+  text-align: center;
+}
+#hearthstone {
   width: 30%;
   min-height: 100%;
   float: left;
